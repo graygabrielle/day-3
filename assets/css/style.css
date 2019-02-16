@@ -1,5 +1,6 @@
 body {
     font-family: 'Oswald', sans-serif;
+    background: #495b96;
 }
 
 header {
@@ -12,6 +13,7 @@ header {
     background-position: center;
     background-size: cover;
     padding-top: 2vh;
+    border-bottom: 0.5vh solid lightgray;
 }
 
 h1 {
@@ -19,11 +21,50 @@ h1 {
     font-size: 2em;
     background-color: white;
     opacity: 0.5;
-    padding-left: 2%;
+    padding: 1% 0 1% 2%;
     text-transform: uppercase;
     position: relative;
     top: 1%;
+}
+
+p {
+    color: black;
+    padding: 1vw;
+    font-size: 1em;
+    line-height: 120%;
+}
+
+#first-body-row {
+    display: flex;
+}
+
+#leftbox {
+    flex: 1;
+    margin: 1vh 1vw;
+    padding: 1vh 1vw;
+    border: 1px solid lightgray;
+    height: min-content;
+    background: white;
+    opacity: 0.75;
+
+}
+
+.rightbox {
+    flex: 1;
+    margin: 1vh 1vw;
+    padding: 1vh 1vw;
+    border: 1px solid lightgray;
+    height: min-content;
+    background: white;
+    opacity: 0.75;
 
 
+
+}
+
+#blood-moon {
+    width: 100%;
+    object-fit: cover;
+    opacity: 1;
 
 }
