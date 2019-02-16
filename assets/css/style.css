@@ -1,0 +1,29 @@
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+header {
+    position: relative;
+    top: 0;
+    height: 50vh;
+    width: 100%;
+    background-image: url("../img/header-img.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 2vh;
+}
+
+h1 {
+    color: black;
+    font-size: 2em;
+    background-color: white;
+    opacity: 0.5;
+    padding-left: 2%;
+    text-transform: uppercase;
+    position: relative;
+    top: 1%;
+
+
+
+}
